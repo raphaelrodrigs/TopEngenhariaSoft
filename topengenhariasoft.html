@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Tópicos Especiais em Engenharia de Software</title>
+
+		<meta name="description" content="US, RN, RF, RI e BDD">
+		<meta name="author" content="Raphael Rodrigues">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/day.css" id="theme">
+
+        <!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+                    <h2>Tópicos Especiais em Engenharia de Software</h2>
+                    <p>
+                        <small><b>US, RN, RF, RI e BDD</b>
+                        <br><br>
+                            <a href="mailto:emartinenco@gmail.com">Eduardo Martinenco</a><br>
+                            <a href="mailto:leticia.hoffmann@acad.pucrs.br">Letícia Hoffmann</a><br>
+                            <a href="mailto:luciano.almeida@acad.pucrs.br">Luciano Almeida</a><br>
+                            <a href="mailto:raphael.silva.001@acad.pucrs.br">Raphael Rodrigues</a>
+                        </small>
+					</p>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>Agenda</h3>
+                        <ul>
+                            <li>User Story</li>
+                            <li>Regras de Negócio</li>
+                            <li>Requisitos Funcionais</li>
+                            <li>Requisitos de Interface</li>
+                            <li>BDD</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <h1>User Story</h1>
+                </section>
+                
+                <section>
+                    <h2>Regras de Negócio</h2>    
+                </section>
+
+                <section>
+                    <h2>Requisitos Funcionais</h2>    
+                </section>
+
+                <section>
+                    <h2>Requisitos de Interface</h2>    
+                </section>
+
+                <section>
+                    <h2>Behaviour-Driven Development</h2>    
+                </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+                slideNumber: true,
+				history: false,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+                // parallaxBackgroundImage: 'images/reveal-parallax-6.jpg',
+				// parallaxBackgroundSize: '2200px 1173px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
