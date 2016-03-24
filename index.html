@@ -98,6 +98,7 @@
 	                	</i>
 	                </section>
 	                <section>
+	                	<h2>O que é?</h2>
             			<p data-fragment-index="0">BDD é técnica de desenvolvimento ágil que visa integrar regras de negócios com linguagem de programação, focando o comportamento do software;</p><br>
             			<p data-fragment-index="1" class="sl-block-content fragment">Trata-se de uma evolução do TDD;</p><br>
             			<p data-fragment-index="2" class="sl-block-content fragment">É uma abordagem de design de software de forma disciplinada, abordando uma série de conceitos e técnicas sempre com foco no domínio do software (Domínio nada mais é que do atender completamente um determinado negócio).</p>
@@ -108,8 +109,10 @@
 	                <section>
 	                	Em apenas um repositório, você mantém os testes de aceite automatizados de uma forma simples de ler para o cliente, desenvolvedores, QAs e demais membros da equipe e ao mesmo tempo esses testes são automatizados antes do desenvolvimento, formando um conjunto de testes de aceite que guiam o desenvolvimento das histórias e em seguida são usados como testes de regressão. Nessa abordagem, a documentação e o código de desenvolvimento evoluem sempre juntos.
 	                </section>
-	                <section>
-	                	<h3>Os três princípios do BDD</h3>
+	            </section>    
+	            <section>
+	            	<section>
+                	<h3>Os três princípios do BDD</h3>
 	                	<ul>
 	                		<li>Negócio e Tecnologia deveriam “falar” sobre um sistema da mesma forma;</li>
 	                		<li>Qualquer sistema deveria ter um valor identificável e verificável para o “negócio”;</li>
@@ -117,9 +120,29 @@
 	                	</ul>
 	                </section>
 	                <section>
-	                	<h2>Ferramentas</h2>
-	                	<img class="revealCustom" src="images/frameworks.png">
+	                	<h3>Camadas BDD</h3>
+	                		<img class="revealCustom" src="images/layersbdd.png">
 	                </section>
+	            </section>
+	            <section>
+	            	<section>
+		                <h2>Ferramentas</h2>
+		                	<img class="revealCustom" src="images/frameworks.png">
+	                </section>
+	                <section>
+	                	<h2>Sintaxe Gherkin</h2>
+	                		<img class="revealCustom" src="images/bddsyntax.jpg">
+	                </section>
+	                <section>
+	                	<h2>BDD Cenário</h2>
+	                		<img class="revealCustom" src="images/simplebddgif.gif">
+	                </section>
+	                <section>
+	                	<h2>Cenário em pt</h2>
+	                		<img class="revealCustom" src="images/bddpt.png">
+	                </section>
+	            </section>
+	            <section>
 	                <section>
 	                	<h2>Vantagens</h2>
 	                	<ul>
@@ -132,6 +155,72 @@
 	                		<li>Aumenta a qualidade do software.
 	                	</ul>
 	                </section>
+				</section>
+                <section>
+                	<section>
+                		<h3>A razões para os testes tradicionais serem superados pelos testes ágeis</h3>
+                	</section>
+                	<section>
+                		<ul>
+                			<li>Grandes volume de atividade manuais de teste atrasam a entrega;</li>
+                			<li>As equipes só começam a testar quando o sistema tenha sido desenvolvido e integrado. Infelizmente, os projetos muitas vezes atrasam, então os times comprimem e sacrificam as atividades no final do projeto;</li>
+                			<li>As equipes criam muito débito técnico. Um grande bloqueio da entrega no prazo é descobrir no final do ciclo de desenvolvimento que sua aplicação possui grandes problemas de qualidade. Descoberta tardia de defeitos leva a altos índices de retrabalho e desperdício.</li>
+                		</ul>
+                	</section>
+                	<section>
+                		<h2>Testes ágeis com BDD</h2>
+                	</section>
+                	<section>
+                		Na visão teórica de algumas metodologias ágeis, não existe o papel conhecido por “Testador”, uma vez que todos os membros dos times ágeis são autossuficientes, tecnicamente capacitados e todos são responsáveis pelos testes.
+						A maior contribuição do testador (QA) para a equipe é a sua visão do software como um todo. Enquanto o foco dos testes dos desenvolvedores é método por método e o dos clientes é estória por estória, os testadores focam no sistema como um todo.
+                	</section>
+                	<section>
+                	<h3>Comparação entre Caso de teste e BDD cenário</h3>
+                		<img class="reveal" src="images/TCeBDD.png">
+                	</section>
+                </section>
+                <section>
+                	<section>
+                		<h3>Case</h3>
+                	</section>
+                	<section>
+                		<img class="reveal" src="images/loginfeature.png">
+                	</section>
+                	<section>
+                		<img class="reveal" src="images/StepsError.png">
+                	</section>
+                	<section>
+                		<img class="reveal" src="images/console.png">
+                	</section>
+                	<section>
+                		<img class="reveal" src="images/semimplementacao.png">
+                	</section>
+                	<section>
+                		<img class="reveal" src="images/classeSteps.png">
+                	</section>
+                	<section>
+                		<img class="reveal" src="images/StepsOK.png">
+                	</section>
+                	<section>
+                		<img class="reveal" src="images/projeto-testes-inteiro.png">
+                	</section>              	
+                </section>
+
+                <section>
+                	<h3>Referência</h3>
+                	<small>
+                	http://eduardopires.net.br/2012/06/ddd-tdd-bdd/<br>
+					http://www.bugbang.com.br/entendendo-bdd-com-cucumber-parte-i/<br>
+					http://dannorth.net/whats-in-a-story/<br>
+					https://pt.wikipedia.org/wiki/Behavior_Driven_Development<br>
+					http://henriqueluz.com.br/2012/05/05/as-vantagens-do-bdd-em-times-ageis/<br>
+					http://www.infoq.com/br/news/2014/07/desenvolvimento-agil-testes<br>
+					http://raphaelrodrigs.github.io/learnbdd/#/<br>
+					http://blog.makesys.com.br/definindo-seu-software-o-que-sao-requisitos-funcionais-e-nao-funcionais<br>
+					http://www.profissionaisti.com.br/2013/02/a-importancia-dos-requisitos-nao-funcionais/<br>
+					http://www.cin.ufpe.br/~gta/rup-vc/extend.bus_model/guidances/guidelines/business_rules_E6E7173.html<br>
+					http://www.centus.com.br/base-de-conhecimento/artigos/definindoregrasdenegocio<br>
+					</small>
                 </section>
 			</div>
 		</div>
